@@ -41,7 +41,7 @@ The answers will always be like this:
 ['status' => STATUS_CODE, 'result'=> RESPONSE]
 ```
 
-##Memory
+## Memory
 
 All user information is stored in an internal file called:
 
@@ -50,14 +50,14 @@ All user information is stored in an internal file called:
 ```
 If you want to clean the data you just have to go inside and delete it.
 
-##Api Calls examples
+## Api Calls examples
 
 ```
 http://localhost:8080/ranking?type=ranking?type=top100
 http://localhost:8080/ranking?type=at100/3
 ```
 
-##Tests
+## Tests
 
 To run the tests you have to use the following command: composer tests
 ```
@@ -65,7 +65,7 @@ composer tests
 ```
 
 
-##Extra explanations project
+## Extra explanations project
 
 Since the technical test lasts 48 hours, I have focused on making the program work and trying to control possible errors. 
 Many improvements can be added, and I would be delighted to share them with you in person. 
