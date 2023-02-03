@@ -16,23 +16,24 @@ Once activated we can make calls to the api.
 
 There are 3 types of calls:
 ```
-    - [POST] user/{user_id}/score
-            With this call we can send the following parameters.
-             - {"score": "+XXX"} or {"score": "-XXX"}  -> This is for relative scores. Change X for score numbers.
-             - {"total": "XXX"} -> This is for absolute scores. Change X for total numbers. Always bigger than 0.
-    - [GET] ranking?type=top100
-            With this call we can send the following parameters.
-                - type=top10
-                - type=top50
-                - type=top100
-                - type=top200
-                - type=top300
-                - type=top500
-    - [GET] ranking?type=at100/3
-            With this call we can send the following parameters.
-                - type=at10/3
-                - type=at10/5
-                - type=at100/3
+- [POST] user/{user_id}/score
+   With this call we can send the following parameters.
+      - {"score": "+XXX"} or {"score": "-XXX"}  -> This is for relative scores. Change X for score numbers.
+      - {"total": "XXX"} -> This is for absolute scores. Change X for total numbers. Always bigger than 0.
+- [GET] ranking?type=top100
+   With this call we can send the following parameters.
+      - type=top10
+      - type=top50
+      - type=top100
+      - type=top200
+      - type=top300
+      - type=top500
+      
+- [GET] ranking?type=at100/3
+   With this call we can send the following parameters.
+      - type=at10/3
+      - type=at10/5
+      - type=at100/3
 ```
 
 The answers will always be like this:

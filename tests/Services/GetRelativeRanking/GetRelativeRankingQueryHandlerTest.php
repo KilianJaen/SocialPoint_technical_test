@@ -16,7 +16,7 @@ class GetRelativeRankingQueryHandlerTest extends TestCase
         $queryHandler = new QueryHandler();
         $mockFileController = $this->createMock(FileController::class);
         $mockFileController->method('getFile')
-            ->willReturn([['userid' => '123', 'score' => 100, 'position' => 9]]);
+            ->willReturn([['userid' => '123', 'score' => 100, 'position' => 4]]);
 
         $response = $queryHandler->execute($query);
 
