@@ -42,19 +42,23 @@ The answers will always be like this:
 ```
 
 ##Memory
+
 All user information is stored in an internal file called:
+
 ```
 /src/saved_info.json
 ```
 If you want to clean the data you just have to go inside and delete it.
 
 ##Api Calls examples
+
 ```
 http://localhost:8080/ranking?type=ranking?type=top100
 http://localhost:8080/ranking?type=at100/3
 ```
 
 ##Tests
+
 To run the tests you have to use the following command: composer tests
 ```
 composer tests
