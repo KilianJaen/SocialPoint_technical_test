@@ -1,0 +1,1 @@
+# SocialPoint_technical_test
