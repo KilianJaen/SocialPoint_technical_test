@@ -40,6 +40,14 @@ The answers will always be like this:
 ```
 ['status' => STATUS_CODE, 'result'=> RESPONSE]
 ```
+
+##Memory
+All user information is stored in an internal file called:
+```
+/src/saved_info.json
+```
+If you want to clean the data you just have to go inside and delete it.
+
 ##Api Calls examples
 ```
 http://localhost:8080/ranking?type=ranking?type=top100
@@ -56,6 +64,6 @@ composer tests
 ##Extra explanations project
 
 Since the technical test lasts 48 hours, I have focused on making the program work and trying to control possible errors. 
-Many improvements can be added, and I would be delighted to be able to comment on them in person. 
+Many improvements can be added, and I would be delighted to share them with you in person. 
 
 If you have any problem with the project please let me know, and I'll try to fix it as soon as possible.
