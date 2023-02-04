@@ -6,7 +6,7 @@ You must have composer installed
 
 ## How it works
 
-First we need to install the dependencies with this command:
+First we need to install the dependencies, go inside the project folder and run the following command:
 ```
 composer install
 ```
