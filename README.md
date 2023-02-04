@@ -59,7 +59,7 @@ http://localhost:8080/ranking?type=at100/3
 
 ## Tests
 
-To run the tests you have to use the following command: composer tests
+To run the tests you have to use the following command:
 ```
 composer tests
 ```
