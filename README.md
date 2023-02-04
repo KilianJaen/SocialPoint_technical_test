@@ -1,5 +1,9 @@
 # SocialPoint Technical Test
 
+## Prerequisite
+
+You must have composer installed
+
 ## How it works
 
 First we need to install the dependencies with this command:
